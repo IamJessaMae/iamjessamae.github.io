@@ -1,0 +1,69 @@
+body{
+    background-color: #a9d7d1;
+    font-size: 1em;
+    font-family: Helvetica;
+    
+  }
+  #title{
+    text-align: center;
+    font-family: monospace;
+  }
+  #form-outer{
+    text-align:center;
+    background-color: pink;
+    margin: 0 auto;
+    line-height: 2.5;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 800px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .labels {
+     display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  
+  }
+  .rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+  }
+  .input-field {
+    height: 20px;
+    width: 230px;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+     display: inline-block;
+    vertical-align: right;
+  }
+  
+  .checkbox {
+  position: relative;
+  }
+  #submit{
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: black;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }
