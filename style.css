@@ -52,8 +52,9 @@
   h1 {
     font-size: 5rem;
     color: grey;
-    font-family: 'Mountains of Christmas', cursive;
-  }
+    font-family: 'Pacifico', cursive;
+
+}
   .welcome-section {
     display: flex;
     flex-direction: column;
@@ -150,8 +151,25 @@
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.8;
-    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+  
+  }
+  .caption{
+      color: rgb(233, 121, 121);
+      display: flex;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .caption2{
+    
+    font-style: italic;
+    font-size: 28px;
+  
+  }
+  .caption3{
+    
+    font-style: italic;
+    font-size: 28px;
   
   }
   
