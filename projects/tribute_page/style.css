@@ -32,7 +32,7 @@ h1{
     text-align: left;
     line-height: 1.6;
     border: 1px solid #ccc;
-    border-raduis; 5px;
+    border-radius:  5px;
   }
   li {
     margin: 16px 0;
@@ -161,7 +161,7 @@ h1{
     text-align: left;
     line-height: 1.8;
     border: 1px solid #ccc;
-    border-raduis; 5px;
+    border-radius: 5px;
   }
   #info1-img{
     display: flex;
