@@ -51,7 +51,11 @@
   
   h1 {
     font-size: 5rem;
+    font-family: 'Indie Flower', cursive;
+    color: grey;
+
   }
+ 
   .welcome-section {
     display: flex;
     flex-direction: column;
@@ -63,7 +67,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://i.pinimg.com/originals/89/d6/4a/89d64aa6305912e9fdfdfc0d3a1b5acd.jpg");
+    background-image: url("https://images.vinted.net/thumbs/f800/01c62_MK6Sh3AqcCALgzYpfRAVbbff.jpeg?1514847866$6d088b6ba31c30963e035887540d1bd9189b037b");
   }
   
   .welcome-section > p {
