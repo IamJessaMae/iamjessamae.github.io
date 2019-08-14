@@ -20,11 +20,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: transparent;
   }
   
   .topnav {
-      background-color: white;
+      background-color: transparent;
       overflow: hidden;
    
      
@@ -51,7 +51,7 @@
   
   h1 {
     font-size: 5rem;
-    color: grey;
+    color:coral;
     font-family: 'Pacifico', cursive;
 
 }
@@ -66,7 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://images.vinted.net/thumbs/f800/01c62_MK6Sh3AqcCALgzYpfRAVbbff.jpeg?1514847866$6d088b6ba31c30963e035887540d1bd9189b037b");
+    background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1449630038-5f5f10f5333949ff53c2bf26ec0ea4e1.gif");
   }
   
   .welcome-section > p {
@@ -82,7 +82,7 @@
    background: linear-gradient(
         100deg,
         #3a3839,
-        #dd89b3
+        #a8e6d6
       );
   }
   
@@ -156,7 +156,7 @@
   
   }
   .caption{
-      color: rgb(233, 121, 121);
+      color: grey;
       display: flex;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -180,11 +180,11 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     background: linear-gradient(
         100deg,
         #becace,
-        #99acb2
+        rgb(250, 162, 130)
       );
   }
   
@@ -207,12 +207,13 @@
     justify-content: center;
     width: 100%;
     max-width: 980px;
-    margin-top: 4rem;
+    margin-top: 0px;
     flex-wrap: wrap;
   }
   
   .contact-details {
     font-size: 2rem;
+    margin: 10px;
   }
   
   .contact-details:hover {
