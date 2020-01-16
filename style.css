@@ -33,7 +33,7 @@
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px 18px;
     text-decoration: none;
@@ -62,11 +62,12 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color:#030321;;/*#ff6f69*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1449630038-5f5f10f5333949ff53c2bf26ec0ea4e1.gif");
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-minimalist-wallpaper-HD-620x388.png");
+    
   }
   
   .welcome-section > p {
@@ -220,7 +221,123 @@
     transform: translateY(10px);
   }
   
+  html{
+    background-color:#ff6f69;
+    background: radial-gradient(#ff6f69, #ff8b87);
+
+  }
+ 
+  .knockout1{
+    margin-right: 260px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size:50pt;
+    color: blue;
+    color: #fff;
+    background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+    background-size: 400%;
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .knockout {
+    
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size:50pt;
+    color: blue;
+    color: #fff;
+    background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+    background-size: 400%;
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .knockout,.knockout1{
+      animation: Gradient 5s ease infinite;
+      -webkit-animation: Gradient 15s ease infinite;
+      -moz-animation: Gradient 5s ease infinite;
+  }
   
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 30% 50%
+    }
+    50% {
+      background-position: 25% 50%
+    }
+    100% {
+      background-position: 30% 50%
+    }
+    
+  }
   
+  h3 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
   
-  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
