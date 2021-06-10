@@ -147,6 +147,7 @@ h1 {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     font-size: 20px;
+    color: #fff;
 }
 .caption {
     color: grey;
@@ -175,6 +176,7 @@ h1 {
 
 .contact-section-header > h2 {
     font-size: 4rem;
+    color: #fff;
 }
 
 @media (max-width: 28.75em) {
