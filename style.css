@@ -310,3 +310,8 @@ svg {
         stroke-dashoffset: -35%;
     }
 }
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .welcome-section {
+        height: 11vh;
+    }
+}
