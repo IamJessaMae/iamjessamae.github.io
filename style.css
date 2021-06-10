@@ -88,7 +88,7 @@ h1 {
         font-size: 4rem;
     }
     .welcome-section {
-     height: 15vh;
+        height: 15vh;
     }
 }
 
@@ -106,7 +106,7 @@ h1 {
 @media (max-width: 30.625em) {
     .projects-section {
         padding: 3rem 2rem 0rem 1rem;
-        }
+    }
 
     .myprojects {
         grid-template-columns: 1fr;
@@ -312,4 +312,40 @@ svg {
     100% {
         stroke-dashoffset: -35%;
     }
- 
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        height: 27vh;
+    }
+    .projects-section {
+        padding: 6rem 8rem;
+    }
+    .nav {
+        left: -41px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1335px) {
+    .welcome-section {
+        height: 37vh;
+    }
+    .nav {
+        top: 13px;
+        left: -55px;
+    }
+    .projects-section {
+        padding: 4rem 3rem 1rem 0rem;
+    }
+}
+@media (min-width: 1336px) and (max-width: 1440px) {
+    .welcome-section {
+        height: 50vh;
+    }
+    .nav {
+        top: 19px;
+        left: -105px;
+    }
+    .projects-section {
+        padding: 4rem 3rem 1rem 0rem;
+    }
+}
