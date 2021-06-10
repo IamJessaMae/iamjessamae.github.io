@@ -87,6 +87,9 @@ h1 {
     .projects-header {
         font-size: 4rem;
     }
+    .welcome-section {
+     height: 15vh;
+    }
 }
 
 /* "Automagic" image grid using no media queries */
@@ -309,9 +312,4 @@ svg {
     100% {
         stroke-dashoffset: -35%;
     }
-}
-@media only screen and (min-width: 320px) and (max-width: 425px) {
-    .welcome-section {
-        height: 11vh !important;
-    }
-}
+ 
