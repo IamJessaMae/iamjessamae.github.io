@@ -83,15 +83,6 @@ h1 {
     font-size: 45px;
 }
 
-@media (max-width: 28.75em) {
-    .projects-header {
-        font-size: 4rem;
-    }
-    .welcome-section {
-        height: 15vh;
-    }
-}
-
 /* "Automagic" image grid using no media queries */
 .myprojects {
     display: grid;
@@ -101,16 +92,6 @@ h1 {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 5rem;
-}
-
-@media (max-width: 30.625em) {
-    .projects-section {
-        padding: 3rem 2rem 0rem 1rem;
-    }
-
-    .myprojects {
-        grid-template-columns: 1fr;
-    }
 }
 
 .project {
@@ -177,12 +158,6 @@ h1 {
 .contact-section-header > h2 {
     font-size: 4rem;
     color: #fff;
-}
-
-@media (max-width: 28.75em) {
-    .contact-section-header > h2 {
-        font-size: 4rem;
-    }
 }
 
 .contact-section-header > p {
@@ -315,7 +290,28 @@ svg {
         stroke-dashoffset: -35%;
     }
 }
+@media (max-width: 28.75em) {
+    .projects-header {
+        font-size: 4rem;
+    }
+    .welcome-section {
+        height: 15vh;
+    }
+}
+@media (max-width: 30.625em) {
+    .projects-section {
+        padding: 3rem 2rem 0rem 1rem;
+    }
 
+    .myprojects {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+        font-size: 4rem;
+    }
+}
 @media (max-width: 768px) {
     .welcome-section {
         height: 27vh;
