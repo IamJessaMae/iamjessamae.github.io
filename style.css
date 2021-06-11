@@ -47,6 +47,7 @@ img {
 h1 {
     font-size: 5rem;
     color: coral;
+    font-family: Poppins;
 }
 .welcome-section {
     display: flex;
@@ -71,7 +72,7 @@ h1 {
 
 .projects-section {
     text-align: center;
-    padding: 9rem 3rem;
+    padding: 1rem 3rem;
     background: linear-gradient(100deg, #727171, #000000);
 }
 
