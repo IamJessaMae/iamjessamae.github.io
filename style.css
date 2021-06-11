@@ -83,6 +83,15 @@ h1 {
     font-size: 45px;
 }
 
+@media (max-width: 28.75em) {
+    .projects-header {
+        font-size: 4rem;
+    }
+    .welcome-section {
+        height: 22vh;
+    }
+}
+
 /* "Automagic" image grid using no media queries */
 .myprojects {
     display: grid;
@@ -92,6 +101,16 @@ h1 {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 5rem;
+}
+
+@media (max-width: 30.625em) {
+    .projects-section {
+        padding: 3rem 2rem 1rem 2rem;
+    }
+
+    .myprojects {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project {
@@ -158,6 +177,19 @@ h1 {
 .contact-section-header > h2 {
     font-size: 4rem;
     color: #fff;
+}
+
+@media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+        font-size: 3rem;
+    }
+    .caption1 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .project-title {
+        font-size: 1.5rem;
+    }
 }
 
 .contact-section-header > p {
@@ -290,60 +322,42 @@ svg {
         stroke-dashoffset: -35%;
     }
 }
-@media (max-width: 28.75em) {
-    .projects-header {
-        font-size: 4rem;
-    }
+
+@media (min-width: 768px) {
     .welcome-section {
-        height: 15vh;
-    }
-}
-@media (max-width: 30.625em) {
-    .projects-section {
-        padding: 3rem 2rem 0rem 1rem;
+        height: 50vh;
     }
 
-    .myprojects {
-        grid-template-columns: 1fr;
-    }
-}
-@media (max-width: 28.75em) {
-    .contact-section-header > h2 {
-        font-size: 4rem;
-    }
-}
-@media (max-width: 768px) {
-    .welcome-section {
-        height: 27vh;
-    }
-    .projects-section {
-        padding: 6rem 8rem;
-    }
     .nav {
         left: -41px;
     }
 }
 @media (min-width: 1024px) and (max-width: 1335px) {
     .welcome-section {
-        height: 37vh;
+        height: 65vh;
     }
     .nav {
         top: 13px;
         left: -55px;
     }
     .projects-section {
-        padding: 4rem 3rem 1rem 0rem;
+        padding: 4rem 0rem 1rem 0rem;
     }
 }
 @media (min-width: 1336px) and (max-width: 1440px) {
     .welcome-section {
-        height: 50vh;
+        height: 88vh;
     }
     .nav {
         top: 19px;
         left: -105px;
     }
     .projects-section {
-        padding: 4rem 3rem 1rem 0rem;
+        padding: 4rem 0rem 1rem 0rem;
+    }
+}
+@media (min-width: 1439px) and (max-width: 2560px) {
+    .welcome-section {
+        height: 100vh;
     }
 }
